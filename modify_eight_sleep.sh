@@ -5,7 +5,7 @@
 
 set -e  # Exit on any error
 
-
+# Run in the same directory as your rootfs.tar.gz
 # Configuration - Edit these variables
 WIFI_SSID='' #Set to the SSID and password of the network to connect to (never could get this to work)
 WIFI_PASSWORD=''
