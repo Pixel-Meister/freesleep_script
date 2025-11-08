@@ -177,7 +177,7 @@ echo "Run:"
 echo 'ssh-keygen -f "~/.ssh/known_hosts" -R "[eight-pod.lan]:8822"'
 echo "Hold the small button at the back while plugging in to reflash the firmware."
 echo "After booting, you should be able to SSH with: ssh rewt@eight-pod.lan -p 8822"
-echo "To run commands, ssh in as rewt and use su root before running sh scripts that require escalated privleges"
+echo "To run commands, ssh in as rewt and use su root before running sh scripts that require escalated privileges"
 echo "Disable those pesky software updates with:"
 echo "systemctl disable --now swupdate-progress swupdate defibrillator eight-kernel telegraf vector frankenfirmware dac swupdate.socket"
 
